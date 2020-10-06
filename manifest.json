@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "EST Time",
+  "version": "1.0",
+  "description": "A simple clock to check EST time",
+  "short_name": "EST",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches":["<all_urls>"],
+      "css": ["background.css"],
+      "js": ["background.js"]
+    }
+  ],
+  "browser_action": {
+    "default_title": "Est Time",
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon128.png"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
