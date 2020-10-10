@@ -2,17 +2,17 @@
 
 ## Installation
 
-1.Clone the repository or download as a zip file
+1. Clone the repository or download as a zip file
 ```bash
 git clone https://github.com/GeethOnion/EST-Time-Checker.git
 ```
-2.Open chrome
+2. Open chrome
 
-3.Goto Settings --> Extensions
+3. Goto Settings --> Extensions
 
-4.Turn on developer mode
+4. Turn on developer mode
 
-5.Goto load unpacked and select the EST-Time-Checker folder.
+5. Goto load unpacked and select the EST-Time-Checker folder.
 
 
 ## Contributing
